@@ -14,6 +14,6 @@
 
 $(call inherit-product, build/target/product/aosp_arm64.mk)
 
-include vendor/lineage/build/target/product/lineage_generic_target.mk
+include vendor/customRom/build/target/product/lineage_generic_target.mk
 
 PRODUCT_NAME := lineage_arm64
